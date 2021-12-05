@@ -7,13 +7,13 @@ public class Activity21 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Chiều dài fibonacci:");
         int n = scanner.nextInt();
-        int t = 1;
-        int s = 0;
+        int truoc = 1;  //Số hạng trước
+        int sau = 0;    //Số hạng sau
         for (int i=1; i <=n; i++ ) {
-            int a = s;
-            s = s + t;
-            t = a;
-            System.out.print(s + ", ");
+            int tam = sau;          //Gán giá trị hiện tại vào 1 biến nhớ
+            sau = sau + truoc;      //Tính giá trị sau = giá trị trước + giá trị vừa rồi --> (được giá trị hiện tại mới
+            truoc = sau;            //Lúc này gán lại thì giá trị trước là giá trị hiện tại cũ
+            System.out.print(sau + ", ");
         }
     }
 }
