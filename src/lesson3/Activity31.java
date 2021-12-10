@@ -27,7 +27,7 @@ public class Activity31 {
                         C[a] = tam;
                 }
             }
-            System.out.print(C[i]);
+            System.out.print(C[i] + "  ");
         }
     }
 }
