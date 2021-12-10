@@ -12,7 +12,7 @@ public class Activity21 {
         for (int i=1; i <=n; i++ ) {
             int tam = sau;          //Gán giá trị hiện tại vào 1 biến nhớ
             sau = sau + truoc;      //Tính giá trị sau = giá trị trước + giá trị vừa rồi --> (được giá trị hiện tại mới
-            truoc = sau;            //Lúc này gán lại thì giá trị trước là giá trị hiện tại cũ
+            truoc = tam;            //Lúc này gán lại thì giá trị trước là giá trị hiện tại cũ
             System.out.print(sau + ", ");
         }
     }
