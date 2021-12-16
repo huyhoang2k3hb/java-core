@@ -19,7 +19,6 @@ public class Activity32 {
             }
             dem = 1;                             //Chuyển sang vòng for ms thì phải gán lại số đếm là 1
         }
-        a--;
         System.out.println("Độ dài mới của mảng là: " + a);
         System.out.println("Các phần tử của mảng là: ");
         for (int i = 0; i <= a; i++) {
